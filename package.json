@@ -1,0 +1,31 @@
+{
+  "name": "cryptracker-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "decimal.js": "^7.2.1",
+    "mathjs": "^3.13.3",
+    "moment": "^2.18.1",
+    "momentjs": "^2.0.0",
+    "normalize.css": "^7.0.0",
+    "papaparse": "^4.3.2",
+    "radium": "^0.19.1",
+    "ramda": "^0.23.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.46.0",
+    "react-scripts": "1.0.6"
+  },
+  "proxy": "http://localhost:56432",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  }
+}

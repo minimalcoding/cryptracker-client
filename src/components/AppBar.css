@@ -1,0 +1,12 @@
+.app-bar {
+    background-color: #263238;
+    color: #ECEFF1;
+    padding: 15px;
+    width: 100%;
+}
+
+.app-bar h1 {
+    margin: 0px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+} 
